@@ -22,7 +22,6 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <!-- Link -->
-     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="./style.css">
     <!-- favicon -->
      <link rel="icon" type="image/png" href="./images/favicon.svg">
@@ -51,11 +50,11 @@
                         <a class="nav-link" href="#best-seller">Instruments</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true" href="#about">About</a>
+                        <a class="nav-link"  href="#about">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" aria-disabled="true" href="#explore">Explore</a>
+                        <a class="nav-link" href="#explore">Explore</a>
                     </li>
                 </ul>
             </div>
@@ -63,10 +62,10 @@
     </nav>
 
     <!-- Hero section -->
-    <section id="home" class="hero d-flex align-items-center">
+    <section id="home" class="hero d-flex align-items-center min-vh-100">
         <div class="hero-content ms-3 ms-lg-5">
-            <p class="hero-label">INSTRUMENTS FOR THOSE WHO </p>
-            <h1 class="">LISTEN <br> DIFFERENTLY.</h1>
+            <p class="hero-label text-uppercase">INSTRUMENTS FOR THOSE WHO </p>
+            <h1>LISTEN <br> DIFFERENTLY.</h1>
             <p class="hero-description">
                 THOUGHTFULLY CRAFTED INSTRUMENTS FOR MUSICIANS
                 WHO TURN FEELING INTO SOUND.
@@ -79,19 +78,19 @@
 
     <!-- Featured Instrument Section -->
     <section id="featured" class="featured-instrument">
-        <div class="featured-container">
+        <div class="featured-container mx-auto">
             <div class="row align-items-center">
 
                 <!-- Left column: Guitar image -->
                 <div class="col-12 col-lg-7">
                     <img src="./images/WhatsApp Image 2026-09-15 at 18.41.29.jpeg" alt="Sonora Aurora electric guitar"
-                        class="img-fluid">
+                        class="d-block img-fluid">
                 </div>
 
                 <!-- Right column: Instrument details -->
                 <div class="col-12 col-lg-5 px-4 px-lg-0 pt-4 pt-lg-0">
 
-                    <p class="featured-label">FEATURED INSTRUMENT</p>
+                    <p class="featured-label mb-4">FEATURED INSTRUMENT</p>
 
                     <h2>Aurora Series</h2>
 
@@ -106,9 +105,9 @@
                         VIEW DETAILS &rarr;
                     </a>
 
-                    <div class="instrument-specs">
+                    <div class="instrument-specs d-flex">
 
-                        <div class="spec">
+                        <div class="spec flex-fill">
                             <div class="spec-icon">◇</div>
                             <div>
                                 <h4>ALDER BODY</h4>
@@ -116,7 +115,7 @@
                             </div>
                         </div>
 
-                        <div class="spec">
+                        <div class="spec flex-fill">
                             <div class="spec-icon">◇</div>
                             <div>
                                 <h4>CUSTOM PICKUPS</h4>
@@ -124,7 +123,7 @@
                             </div>
                         </div>
 
-                        <div class="spec">
+                        <div class="spec flex-fill">
                             <div class="spec-icon">◇</div>
                             <div>
                                 <h4>MAPLE NECK</h4>
@@ -132,18 +131,15 @@
                             </div>
                         </div>
 
-                        <div class="spec">
+                        <div class="spec flex-fill">
                             <div class="spec-icon">◇</div>
                             <div>
                                 <h4>22 FRETS</h4>
                                 <p>Precise note control</p>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </div>
     </section>
@@ -153,144 +149,105 @@
 
         <div class="collections-heading px-2 px-md-0">
             <p>EXPLORE OUR COLLECTIONS</p>
-            <h2>FIND THE PERFECT INSTRUMENT <br> FOR YOUR NEXT CHAPTER.</h2>
+            <h2 class="m-0">FIND THE PERFECT INSTRUMENT <br> FOR YOUR NEXT CHAPTER.</h2>
         </div>
 
         <div class="row g-4">
 
             <!-- Guitar Card -->
             <div class="col-lg-3 col-md-6">
-                <div class="collection-card">
-                    <img src="./images/guitar3.png" alt="Sonora guitars" class="img-fluid">
-                    <h3>GUITARS</h3>
-                    <a href="#">Discover →</a>
+                <div class="collection-card h-100">
+                    <img src="./images/guitar3.png" alt="Sonora guitars" class="img-fluid d-block">
+                    <h3 class="text-center">GUITARS</h3>
+                    <a  class="d-block text-center text-decoration-none" href="#">Discover &rarr;</a>
                 </div>
             </div>
 
             <!-- Keyboard Card -->
             <div class="col-lg-3 col-md-6">
-                <div class="collection-card">
-                    <img src="./images/piano.jpeg" alt="Sonora keyboards" class="img-fluid">
-                    <h3>KEYBOARDS</h3>
-                    <a href="#">Discover →</a>
+                <div class="collection-card h-100">
+                    <img src="./images/piano.jpeg" alt="Sonora keyboards" class="img-fluid d-block">
+                    <h3 class="text-center">KEYBOARDS</h3>
+                    <a class="d-block text-center text-decoration-none" href="#">Discover &rarr;</a>
                 </div>
             </div>
 
             <!-- Drums Card -->
             <div class="col-lg-3 col-md-6">
-                <div class="collection-card">
-                    <img src="./images/drums.jpeg" alt="Sonora drums" class="img-fluid">
-                    <h3>DRUMS</h3>
-                    <a href="#">Discover →</a>
+                <div class="collection-card h-100">
+                    <img src="./images/drums.jpeg" alt="Sonora drums" class="img-fluid d-block">
+                    <h3 class="text-center">DRUMS</h3>
+                    <a class="d-block text-center text-decoration-none" href="#">Discover &rarr;</a>
                 </div>
             </div>
 
             <!-- Audio Card -->
             <div class="col-lg-3 col-md-6">
-                <div class="collection-card">
-                    <img src="./images/headset.jpeg" alt="Sonora audio equipment" class="img-fluid">
-                    <h3>AUDIO</h3>
-                    <a href="#">Discover →</a>
+                <div class="collection-card h-100">
+                    <img src="./images/headset.jpeg" alt="Sonora audio equipment" class="img-fluid d-block">
+                    <h3 class="text-center">AUDIO</h3>
+                    <a class="d-block text-center text-decoration-none" href="#">Discover &rarr;</a>
                 </div>
             </div>
         </div>
-        <!-- Carousel -->
     </section>
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
-                <video class="d-block w-100" autoplay muted loop playsinline>
-                    <source src="./videos/drums.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <video class="d-block w-100" autoplay muted loop playsinline>
-                    <source src="./videos/violin.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <video class="d-block w-100" autoplay muted loop playsinline>
-                    <source src="./videos/guitar.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="carousel-item " data-bs-interval="5000">
-                <video class="d-block w-100" autoplay muted loop playsinline>
-                    <source src="./videos/saxo.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <video class="d-block w-100" autoplay muted loop playsinline>
-                    <source src="./videos/piano.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
+      
+   
     <!-- Best Sellers Section -->
     <section id="best-seller" class="best-sellers">
-        <div class="container px-4">
+        <div class="container text-center px-4">
 
             <div class="best-sellers-heading">
                 <p>BEST SELLERS</p>
-                <h2>ESSENTIALS FOR<br>EVERY SOUND.</h2>
+                <h2 class="m-0">ESSENTIALS FOR<br>EVERY SOUND.</h2>
             </div>
 
             <div class="row g-4">
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="product-card">
-                        <img src="./images/guit2.jpeg" class="img-fluid" alt="Sonora electric guitar">
+                    <div class="product-card text-center">
+                        <img src="./images/guit3.png" class="img-fluid d-block" alt="Sonora electric guitar">
                         <div class="product-info">
                             <p>GUITARS</p>
                             <h3>Aurora Electric</h3>
                             <span>$1,299</span>
-                            <a href="#">VIEW INSTRUMENT →</a>
+                            <a class="d-block text-decoration-none" href="#">VIEW INSTRUMENT →</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="product-card">
-                        <img src="./images/guit.jpeg" class="img-fluid" alt="Sonora acoustic guitar">
+                        <img src="./images/guit.jpeg" class="img-fluid d-block" alt="Sonora acoustic guitar">
                         <div class="product-info">
                             <p>GUITARS</p>
                             <h3>Solace Acoustic</h3>
                             <span>$899</span>
-                            <a href="#">VIEW INSTRUMENT →</a>
+                            <a class="d-block text-decoration-none" href="#">VIEW INSTRUMENT →</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="product-card">
-                        <img src="./images/keyboard.jpeg" class="img-fluid" alt="Sonora keyboard">
+                        <img src="./images/keyboard.jpeg" class="img-fluid d-block" alt="Sonora keyboard">
                         <div class="product-info">
                             <p>KEYBOARDS</p>
                             <h3>Nova 88</h3>
                             <span>$1,099</span>
-                            <a href="#">VIEW INSTRUMENT →</a>
+                            <a class="d-block text-decoration-none" href="#">VIEW INSTRUMENT →</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="product-card">
-                        <img src="./images/audio.jpeg" class="img-fluid" alt="Sonora headphones">
+                        <img src="./images/audio.jpeg" class="img-fluid d-block" alt="Sonora headphones">
                         <div class="product-info">
                             <p>AUDIO</p>
                             <h3>Studio One</h3>
                             <span>$349</span>
-                            <a href="#">VIEW INSTRUMENT →</a>
+                            <a class="d-block text-decoration-none" href="#">VIEW INSTRUMENT →</a>
                         </div>
                     </div>
                 </div>
@@ -344,73 +301,7 @@
         </div>
     </section>
 
-    <!-- Artists Section -->
-    <section id="art" class="artists-section py-5">
-        <div class="container-fluid px-4 px-lg-5">
-
-            <div class="row align-items-center g-5">
-
-                <!-- Left Side -->
-                <div class="col-lg-5 ">
-                    <div class="artists-content">
-
-                        <p>SONORA ARTISTS</p>
-
-                        <h2>
-                            MADE FOR THOSE
-                            <br>
-                            WHO MAKE MUSIC.
-                        </h2>
-
-                        <p class="artists-description">
-                            From quiet beginnings to unforgettable performances,
-                            SONORA instruments are made to become part of every
-                            artist's journey.
-                        </p>
-
-                        <a href="#" class="btn btn-outline-light rounded-pill">
-                            MEET OUR ARTISTS →
-                        </a>
-
-                    </div>
-                </div>
-
-                <!-- Right Side -->
-                <div class="col-lg-7">
-                    <div class="row g-3">
-
-                        <div class="col-12 col-sm-4">
-                            <div class="artist-card">
-                                <img src="./images/art1.jpg" class="img-fluid" alt="Sonora artist">
-                                <h3>JAMES CARTER</h3>
-                                <p>GUITARIST</p>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-sm-4">
-                            <div class="artist-card">
-                                <img src="./images/art2.jpg" class="img-fluid" alt="Sonora artist">
-                                <h3>ELENA ROSE</h3>
-                                <p>PIANIST</p>
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-sm-4">
-                            <div class="artist-card">
-                                <img src="./images/art3.jpg" class="img-fluid" alt="Sonora artist">
-                                <h3>NOAH REED</h3>
-                                <p>DRUMMER</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
+ 
 
     <!-- Promotional Banner -->
     <section id="explore" class="promo-section position-relative">
@@ -495,7 +386,7 @@
                 <div class="col-6 col-lg-2">
                     <h3 class="mb-3">CONNECT</h3>
 
-                    <div class="social-links">
+                    <div class="social-links d-flex">
                         <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
