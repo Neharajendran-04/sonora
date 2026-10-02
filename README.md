@@ -28,5 +28,5 @@ Built with Bootstrap's responsive grid and utility classes, complemented by cust
 
 🌐 Live Demo
 
-[View SONORA Live](YOUR-LIVE-WEBSITE-LINK)
+[View SONORA Live](https://sonora-mu-nine.vercel.app/)
 
