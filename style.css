@@ -1330,6 +1330,10 @@ body {
 
     .product-image {
         height: 320px;
+
+    }
+    .product-image img{
+        object-fit: contain;
     }
 
     .product-info {
